@@ -255,9 +255,9 @@ ARG VERSION
 LABEL org.label-schema.build-date=$BUILD_DATE \
 	 org.label-schema.name="Wordpress (Nginx/php-fpm) Docker Container" \
 	 org.label-schema.description="Wordpress container running PHP $PHP_VERSION served by Nginx/php-fpm with caching, TLS encryption, HTTP/2" \
-	 org.label-schema.url="https://github.com/rija/docker-nginx-fpm-caches-wordpress" \
+	 org.label-schema.url="https://github.com/amizzo87/docker-nginx-fpm-caches-wordpress" \
 	 org.label-schema.vcs-ref=$VCS_REF \
-	 org.label-schema.vcs-url="https://github.com/rija/docker-nginx-fpm-caches-wordpress" \
-	 org.label-schema.vendor="Rija Menage" \
+	 org.label-schema.vcs-url="https://github.com/amizzo87/docker-nginx-fpm-caches-wordpress" \
+	 org.label-schema.vendor="Anthony Izzo, forked from Rija Menage" \
 	 org.label-schema.version=$VERSION \
 	 org.label-schema.schema-version="1.0"
