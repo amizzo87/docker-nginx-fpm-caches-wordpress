@@ -40,7 +40,7 @@ RUN install_packages \
 
 ENV GOSU_VERSION 1.7
 ENV NGINX_VERSION 1.13.0
-ENV PHP_VERSION 7.1
+ENV PHP_VERSION 7.0
 
 # php installation
 
@@ -61,7 +61,9 @@ RUN curl -o /etc/apt/trusted.gpg.d/php.gpg -fsSL https://packages.sury.org/php/a
 						php$PHP_VERSION-xml \
 						php$PHP_VERSION-json \
 						php$PHP_VERSION-opcache \
-						php$PHP_VERSION-mbstring
+						php$PHP_VERSION-mbstring \
+						php$PHP_VERSION-curl \
+						php$PHP_VERSION-redis
 
 
 

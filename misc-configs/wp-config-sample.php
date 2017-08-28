@@ -77,10 +77,10 @@ define('WP_DEBUG', false);
 define('DISABLE_WP_CRON', true);
 
 # Disable all automatic updates:
-define( 'AUTOMATIC_UPDATER_DISABLED', true );
+define( 'AUTOMATIC_UPDATER_DISABLED', false );
 
 # Disable Plugin and Theme Update and Installation, implies DISALLOW_FILE_EDIT=true
-define( 'DISALLOW_FILE_MODS', true );
+define( 'DISALLOW_FILE_MODS', false );
 
 # WPf2b will block user enumeration attempts 
 define('WP_FAIL2BAN_BLOCK_USER_ENUMERATION',true);
