@@ -1,5 +1,5 @@
 FROM bitnami/minideb:jessie
-MAINTAINER Rija Menage <dockerfiles@rija.cinecinetique.com>
+MAINTAINER Anthony Izzo <me@amizzo.com>
 
 EXPOSE 80
 EXPOSE 443
@@ -40,7 +40,7 @@ RUN install_packages \
 
 ENV GOSU_VERSION 1.7
 ENV NGINX_VERSION 1.13.0
-ENV PHP_VERSION 7.0
+ENV PHP_VERSION 7.1
 
 # php installation
 
